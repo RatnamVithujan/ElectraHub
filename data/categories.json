@@ -1,0 +1,8 @@
+[
+  { "categoryID": 1, "name": "Refrigerators" },
+  { "categoryID": 2, "name": "Washing Machines" },
+  { "categoryID": 3, "name": "Televisions" },
+  { "categoryID": 4, "name": "Microwaves" },
+  { "categoryID": 5, "name": "Blenders" },
+  { "categoryID": 6, "name": "Air Conditioners" }
+]

@@ -306,6 +306,91 @@ body {
   }
 }
 
+/* Browse Categories Section Styles ----------------------------------*/
+.browse-categories {
+  margin: 3rem var(--side-space);
+}
+
+.browse-categories h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.browse-categories p {
+  font-family: "Outfit", sans-serif;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.category-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 1rem; /* space for scrollbar */
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
+}
+
+.category-card {
+  display: flex;
+  flex: 0 0 auto; /* prevents shrinking */
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 150px; /* adjust to taste */
+}
+
+.category-image-box {
+  width: 140px;
+  height: 140px;
+  background-color: #b6dcea; /* the cream color from your reference */
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 0.75rem;
+}
+
+.category-image-box img {
+  width: 85%;
+  height: 85%;
+  object-fit: contain;
+  border-radius: 15px;
+}
+
+.category-name {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Product Grid Section Styles ----------------------------------*/
+.popular-items {
+  margin: 3rem var(--side-space);
+}
+
+.popular-items h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.popular-items p {
+  font-family: "Outfit", sans-serif;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
 /* Footer Styles ----------------------------------*/
 .footer {
   background-color: #0a2540;
